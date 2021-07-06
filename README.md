@@ -48,6 +48,8 @@ You can do addition or subtractions: `11 12 1997 + 8292` (or shorthand `a + 8292
 
 With this program you have the choice of looking up numbers in multiple constants, like Euler-Mascheroni's (em) or Phi (phi)
 
+Input one of the following codes to switch constants:
+
 Pi (pi), Phi (phi), e (e), Euler-Mascheroni Constant (em), 2Pi (2pi), Glaisher-Kinkelin Constant (A), Catalan Constant (cat), Khinchin-Levy Constant (kl), Square root of 2 (rt)
 
 # Hebrew Gematria
