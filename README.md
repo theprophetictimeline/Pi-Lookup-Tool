@@ -1,32 +1,34 @@
-# Pi Number Lookup Tool
+# Number Date and Gematria Python Tool
 
-With this Python script you can view the occurrences of numbers in Pi, view the properties of numbers, and more. You may view the Gematria of text, whether it's English/Hebrew/Greek.
+With this Tool you can view the properties of numbers, analyze dates, and view the Gematria of text whether it be English/Hebrew/Greek.
 
-You can also lookup dates, and do simple date calculations.
+This tool can be used to view the occurrences of numbers in multiple Constants (Pi, Phi, Euler-Mascheroni's...)
 
-![Constant lookup](https://user-images.githubusercontent.com/86980762/124512347-1ca7ca00-dda6-11eb-8bfd-6a069a11ec73.png)
+![Pi Lookup Tool](https://user-images.githubusercontent.com/86980762/124818370-f36b7300-df38-11eb-9992-30b8b42ef049.png)
 
 # Install (Windows)
 
-Make sure you have Python downloaded and installed. (Python 2)
+First you will need Python downloaded and installed to run this script. ([Python 2](https://www.python.org/downloads/release/python-2717/))
 
-Then with Pip you can run this command:
+Pip install the necessary components:
 
     pip install pynput convertdate clipboard backports.shutil_get_terminal_size
+
+Then run from the Command Prompt:
+
+    python "C:\Users\User\Downloads\multi_tool_v9.py"
 
 ## Linux
 
     sudo apt install -y xclip libncurses5-dev python-pip && pip install --upgrade pip && pip install readline pynput convertdate clipboard backports.shutil_get_terminal_size
 
-## Running it
+Run it:
 
-You can then run this program by `python "C:\Users\User\Downloads\multi_tool_v9.py"` (Windows)
-
-(Linux) `python '/home/user/Downloads/multi_tool_v9.py'`
+    python '/home/user/Downloads/multi_tool_v9.py'
 
 # Date Lookup
 
-You can view information about a date by entering a single date group (`7 26 2020`) or you can do calculations like so:
+View information about a date by entering a date group `7 26 2020`, or you can do date calculations like so:
 
 ```
 Input: 11 12 1997 -> 7 26 2020
@@ -42,25 +44,33 @@ Coptic date:     3/3/1714 (Day 63)                 |       Coptic date:     11/1
 11/12/1997 -> 7/26/2020 = 8292 days
 ```
 
-You can do addition or subtractions: `11 12 1997 + 8292` (or shorthand `a + 8292`) or `7 26 2020 - 8292`
+The date on the left side becomes "a" in a variable, which can be referenced in additional calculations:
+
+`a + 8292` `11 12 1997 + 8292` `7 26 2020 - 8292` `b + 5518`
+
+The Right Hand result of a calculation becomes "b"
 
 # Multiple Constants
 
-With this program you have the choice of looking up numbers in multiple constants, like Euler-Mascheroni's (em) or Phi (phi)
+You can chose which constant you would like to use by entering one of the following codes:
 
-Pi (pi), Phi (phi), e (e), Euler-Mascheroni Constant (em), 2Pi (2pi), Glaisher-Kinkelin Constant (A), Catalan Constant (cat), Khinchin-Levy Constant (kl), Square root of 2 (rt)
+Pi (`pi`), Phi (`phi`), e (`e`), Euler-Mascheroni Constant (`em`), 2Pi (`2pi`), Glaisher-Kinkelin Constant (`A`), Catalan Constant (`cat`), Khinchin-Levy Constant (`kl`), Square Root of 2 (`rt`)
+
+These constants can be viewed up to 1 million digits, except A which can be viewed up to 20000 digits.
 
 # Hebrew Gematria
 
-![Hebrew Gematria](https://user-images.githubusercontent.com/86980762/124513584-1c5cfe00-dda9-11eb-8778-d463d86d5776.png)
+Enter Hebrew text: `ועל צבא מטה בני גד אליסף בן דעואל` to view its Gematria:
 
-Enter Hebrew Text `ועל צבא מטה בני גד אליסף בן דעואל` to view its Gematria
+![Hebrew Gematria](https://user-images.githubusercontent.com/86980762/124827035-8ad5c380-df43-11eb-914d-02589297546a.png)
+
+Text can be inputted and pasted from the Clipboard by pressing the Right Control key.
 
 # Greek Isopsephy
 
-Example `ἤ πῶς δύνασαι λέγειν τῷ ἀδελφῷ σου, Ἀδελφέ, ἄφες ἐκβάλω τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ σου, αὐτὸς τὴν ἐν τῷ ὀφθαλμῷ σοῦ δοκὸν οὐ βλέπων; ὑποκριτά, ἔκβαλε πρῶτον τὴν δοκὸν ἐκ τοῦ ὀφθαλμοῦ σοῦ, καὶ τότε διαβλέψεις ἐκβαλεῖν τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ τοῦ ἀδελφοῦ σου.`
+`ἤ πῶς δύνασαι λέγειν τῷ ἀδελφῷ σου, Ἀδελφέ, ἄφες ἐκβάλω τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ σου, αὐτὸς τὴν ἐν τῷ ὀφθαλμῷ σοῦ δοκὸν οὐ βλέπων; ὑποκριτά, ἔκβαλε πρῶτον τὴν δοκὸν ἐκ τοῦ ὀφθαλμοῦ σοῦ, καὶ τότε διαβλέψεις ἐκβαλεῖν τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ τοῦ ἀδελφοῦ σου.`
 
-![Greek_Isopsephy](https://user-images.githubusercontent.com/86980762/124514860-fe44cd00-ddab-11eb-9715-546cb2c7f8ad.png)
+![Greek Isopsephy](https://user-images.githubusercontent.com/86980762/124828545-6975d700-df45-11eb-8ede-7e74356cdc39.png)
 
 # Math
 
@@ -68,7 +78,7 @@ Do simple expressions in this calculator:
 
 `0 + 68 + 483 + 6716`
 
-The Result of this expression is `7267`
+The Result is: `7267`
 
 # Other
 
