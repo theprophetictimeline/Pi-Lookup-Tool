@@ -4,7 +4,7 @@ With this Tool you can view the properties of numbers, analyze dates, and view t
 
 This tool can be used to view the occurrences of numbers in multiple Constants (Pi, Phi, Euler-Mascheroni's...)
 
-![Pi Lookup Tool](https://user-images.githubusercontent.com/86980762/124818370-f36b7300-df38-11eb-9992-30b8b42ef049.png)
+[![Pi Lookup Tool](https://user-images.githubusercontent.com/86980762/124818370-f36b7300-df38-11eb-9992-30b8b42ef049.png)](#)
 
 # Install (Windows)
 
@@ -62,7 +62,7 @@ These constants can be viewed up to 1 million digits, except A which can be view
 
 Enter Hebrew text: `ועל צבא מטה בני גד אליסף בן דעואל` to view its Gematria:
 
-![Hebrew Gematria](https://user-images.githubusercontent.com/86980762/124827035-8ad5c380-df43-11eb-914d-02589297546a.png)
+[![Hebrew Gematria](https://user-images.githubusercontent.com/86980762/124827035-8ad5c380-df43-11eb-914d-02589297546a.png)](#)
 
 Text can be inputted and pasted from the Clipboard by pressing the Right Control key.
 
@@ -70,7 +70,7 @@ Text can be inputted and pasted from the Clipboard by pressing the Right Control
 
 `ἤ πῶς δύνασαι λέγειν τῷ ἀδελφῷ σου, Ἀδελφέ, ἄφες ἐκβάλω τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ σου, αὐτὸς τὴν ἐν τῷ ὀφθαλμῷ σοῦ δοκὸν οὐ βλέπων; ὑποκριτά, ἔκβαλε πρῶτον τὴν δοκὸν ἐκ τοῦ ὀφθαλμοῦ σοῦ, καὶ τότε διαβλέψεις ἐκβαλεῖν τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ τοῦ ἀδελφοῦ σου.`
 
-![Greek Isopsephy](https://user-images.githubusercontent.com/86980762/124828545-6975d700-df45-11eb-8ede-7e74356cdc39.png)
+[![Greek Isopsephy](https://user-images.githubusercontent.com/86980762/124828545-6975d700-df45-11eb-8ede-7e74356cdc39.png)](#)
 
 # Math
 
